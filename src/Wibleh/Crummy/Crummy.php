@@ -58,7 +58,6 @@ class Crummy
 				}
 				$c .= ">" . e($crumb['text']) . "</span>";
 			}
-			$c .= $div;
 			$c .= '</li>';
 			
 			echo $c;
