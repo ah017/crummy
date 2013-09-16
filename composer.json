@@ -1,0 +1,21 @@
+{
+    "name": "wibleh/crummy",
+    "description": "A simple, no-frills breadcrumbs package for laravel 4",
+    "license": ["GPL-2.0", "GPL-3.0"],
+    "authors": [
+        {
+            "name": "Andrew Holt",
+            "email": "wibleh@onemanlan.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Wibleh\\Crummy": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
