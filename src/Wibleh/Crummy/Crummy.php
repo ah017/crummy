@@ -44,7 +44,6 @@ class Crummy
 			if ($crumb_index == ($count-1)) $li_class[] = "last";
 			$li_class[] = $crumb['url'] ? "crumb-link" : "crumb-text";
 			$c = "<li" . (count($li_class) ? ' class="'.implode(" ", $li_class).'"' : '') . ">";
-			$div = ($i++ < ($count-1)) ? ' <span class="divider">'.e($divider).'</span>' : '';
 			if (!empty($crumb['url'])) {
 				$c .= '<a href="' . $crumb['url'] . '"';
 				foreach ($crumb['attributes'] as $k => $v) {
